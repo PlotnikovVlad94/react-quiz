@@ -1,0 +1,12 @@
+.layout {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(90deg, #4334ff, #b340ff);
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}

@@ -1,0 +1,33 @@
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.input-container label {
+  margin-bottom: 5px;
+  padding: 0;
+  display: block;
+  font-weight: bold;
+  color: #4334ff;
+}
+
+.input-container input {
+  display: block;
+  outline: none;
+  border: 1px solid #bebebe;
+  padding: 7px;
+  margin: 0 0 5px;
+  width: 100%;
+  transition: 0.3s ease-in-out;
+}
+
+.input-container span {
+  color: #f01f30;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.input-container.invalid input {
+  box-shadow: 0px 0px 5px 0.5px #f01f30;
+}

@@ -1,0 +1,26 @@
+.answer-item {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: 0.3s ease-in-out;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &.success {
+    background: rgba(52, 168, 83, 0.7);
+    font-size: bold;
+  }
+
+  &.error {
+    background-color: rgba(234, 67, 53, 0.7);
+    font-size: bold;
+  }
+}
